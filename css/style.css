@@ -1,0 +1,55 @@
+
+div#content div{
+    display: inline-block;
+    width: 48%;
+}
+
+div#content div h1, p{
+    margin: 35px;
+}
+
+div#content div.leftbox{
+    background-color: yellow;
+    vertical-align: top;
+}
+
+div#content div.rightbox{
+    background-color: green;
+}
+
+nav.menu-nav ul li.btn{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav.menu-nav ul li.btn a{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 5%;
+}
+
+nav.menu-nav ul li.btn:hover a{
+    color: red;
+    background-color: white;
+    transform: 0.3s all;
+}
+
+/* p.welcome{
+    color: #fff;
+    background-color: #E21C44;
+}
+
+p.vivacss{
+    color: #000;
+    font-weight: bold;
+}
+
+body{
+    background-color: #777;
+}
+
+h2.headline{
+    font-size: 50px;
+    padding-left: 200px;
+} */
